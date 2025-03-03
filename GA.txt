@@ -1,0 +1,46 @@
+Global Attributes -
+
+
+
+1. accesskey
+2. autocorrect
+3. autofocus
+4. autocapitalize
+
+5. id
+6. class
+7. style
+8. title
+9. lang
+10. translate
+11. tabindex
+
+12. spellcheck
+13. dir
+14. draggable
+15. data-*
+
+16. itemid
+17. itemref
+18. itemtype
+19. itemprop
+20. itemscope
+21. inputmode
+22. is
+23. nonce
+
+
+
+24. hidden
+25. inert
+26. slot
+27. contenteditable
+
+28. role
+29. part
+30. popover
+31. enterkeyhint
+32. exportparts
+33. writingsuggestions
+34. virtualkeyboardpolicy
+
