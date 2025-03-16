@@ -1,0 +1,935 @@
+Step Wise Learning Topics
+
+
+
+BigInt, Boolean, Error[Error types] , null, undefined in one day only
+
+Date in one day only
+
+Callbacks, Promise in one day only
+
+Aggregate Error in one day only
+
+Math, Finalization Registry in one day only
+
+Generator, GeneratorFunction in one day only
+
+Iterables in one day only
+
+Other Built-in Objects related stuffs in one day only
+
+
+Only Object, Function can access their own prototype methods
+All objects [not prototypes] can access all inherited Function and Object properties and methods
+All Object prototypes [such as Array, String, Error, Date, etc. ] can access only Object prototype methods and not Function prototype methods.
+
+
+From Wednesday onwards:
+{{
+
+
+AsyncFunction, AsyncGenerator, AsyncGeneratorFunction, AsyncIterator
+
+ArrayBuffer in one day only
+
+SharedArrayBuffer in one day only
+
+Atomics in one day only  [Contains Methods only]
+
+Reflect in one day only  [Contains Methods only]
+
+Proxy in one day only    [Contains Methods only]
+
+WeapMap, WeakRef, WeakSet in one day only - [Contains Methods only]
+
+TypedArray [TypedArray types] in 3 to 6 days only
+
+DataView in one day only
+
+Math, TypedArray, Atomics, Reflect, Proxy contains no constructor
+
+Atomics, Reflect, Proxy contains only methods
+
+
+}}
+
+
+
+
+Expressions and operators
+
+Arithmetic operators:
+
+Addition +
+Subtraction -
+Mutiplication *
+Division /
+Modulus (Division Remainder) %
+Exponentiation**
+
+
+Prefix Increment ++x
+Postfix Increment  x++
+Prefix Decrement  --x
+Postfix Decrement  x--
+
+
+Assignment =
+Addition Assignment +=
+Subtraction Assignment -=
+Multiplication Assignment *=
+Division Assignment /=
+Modulus (Remainder) Assignment %=
+Exponentiation Assignment **=
+
+
+Nullish Coalescing ??
+Nullish Coalescing assignment ??=
+
+
+
+Comparison operators:
+
+Equal to ==
+Strict equality ===
+Not equal !=
+Strict inequality !==
+Less than <
+Greater than >
+Less than or equal to <=
+Greater than or equal to >=
+
+
+
+Logical Operators:
+
+Logical AND &&
+Logical OR ||
+Logical NOT !
+
+Logical AND assignment &&=
+Logical OR assignment ||=
+
+
+Bitwise Operators:
+
+Bitwise AND &
+Bitwise OR |
+Bitwise NOT ~
+Bitwise XOR ^
+Bitwise Left Shift <<
+Bitwise Right Shift >>
+Bitwise Unsigned Right Shift >>>
+
+Bitwise AND assignment &=
+Bitwise OR assignment |=
+Bitwise XOR assignment ^=
+Bitwise Left Shift assignment <<=
+Bitwise Right Shift assignment >>=
+Bitwise Unsigned Right Shift assignment >>>=
+
+
+Ternary Operators:
+
+Ternary operator ?:
+
+
+Type Operators:
+
+typeof
+instanceof
+
+
+
+String:
+
+
+1. at()    
+2. charAt()    
+3. charCodeAt()
+4. codePointAt()
+5. concat()
+6. String.fromCharCode()
+7. String.fromCodePoint()
+8. String.raw()
+9. search()
+10. startsWith()
+11. endsWith()
+12. includes()
+13. match()
+14. matchAll()
+15. replace()
+16. replaceAll()
+
+
+17. padStart()
+18. padEnd()
+19. sub()
+20. sup()
+21. toLowerCase()
+22. toLocaleLowerCase()
+23. toUpperCase()
+24. toLocaleUpperCase()
+25. localeCompare()
+26. trim()
+27. trimStart()
+28. trimEnd()
+29. slice()
+30. substring()
+31. substr()
+
+
+32. indexOf()
+33. lastIndexOf()
+34. split()
+35. strike()
+36. toWellFormed()
+37. isWellFormed()
+38. normalize()
+39. fixed()  // tt
+40. repeat()
+
+
+41. anchor()
+42. link()
+43. small()  
+44. big()
+45. bold()
+46. italics()
+47. blink()
+48. fontcolor()
+49. fontsize() 
+
+50. toString()
+51. toLocaleString()
+52. valueOf()
+ 
+
+
+Number:
+
+1. MAX_VALUE
+2. MIN_VALUE
+3. MAX_SAFE_INTEGER
+4. MIN_SAFE_INTEGER
+
+
+5. EPSILON
+6. NaN
+7. POSITIVE_INFINITY
+8. NEGATIVE_INFINITY
+
+9. parseInt()
+10. parseFloat()
+11. toPrecision()
+12. toExponential()
+13. toFixed()
+
+
+14. isNaN()
+15. isFinite()
+16. isInteger()
+17. isSafeInteger()
+
+18. toString()
+19. toLocaleString()
+20. valueOf()
+RegExp:
+
+1. unicode
+2. unicodeSets
+3. global
+4. dotAll
+5. flags
+
+
+6. hasIndices
+7. obj.lastIndex
+8. RegExp.input($_)
+9. RegExp.lastMatch($&)
+10. RegExp.lastParen($+)
+11. RegExp.leftContext($`)
+12. RegExp.rightContext ($')
+13. RegExp.$1 to RegExp.$9
+
+
+14. multiline
+15. ignoreCase
+16. source
+17. sticky
+
+18. [@@match]()
+19. [@@matchAll]()
+20. [@@replace]()
+21. [@@search]()
+
+
+22. [@@split]()
+23. compile()
+24. exec()
+25. text()
+26. toString()
+
+
+
+
+Array:
+
+1. at() 
+2. concat()
+3. copyWithin()
+4. keys()  
+5. values()  
+6. entries()
+7. forEach()
+8. Array.of()
+9. Array.from()
+10. Array.fromAsync()
+11. Array.isArray()
+
+
+12. indexOf()
+13. lastIndexOf()
+14. slice()
+15. pop()  
+16. push()
+17. shift()
+18. unshift() 
+
+
+19. find()
+20. findIndex()
+21. findLast()
+22. findLastIndex()
+23. fill()
+24. filter()  
+25. every()  
+26. some()  
+27. with()
+28. join()
+29. includes() 
+30. flat()
+31. flatMap() 
+32. reduce()  
+33. reduceRight()  
+
+
+34. reverse()  
+35. toReversed()
+36. sort()    
+37. toSorted()
+38. splice()  
+39. toSpliced()  
+40. toString()
+41. toLocaleString()
+42  valueOf()
+
+
+
+Symbol:
+
+
+1. Symbol.search
+2. Symbol.match
+3. Symbol.matchAll
+4. Symbol.replace
+5. Symbol.isConcatSpreadable
+6. Symbol.iterator
+7. Symbol.asyncIterator
+8.  Symbol.toPrimitive
+9.  Symbol.toStringTag
+10. Symbol.split
+11. Symbol.species
+
+
+12. Symbol.unscopables
+13. Symbol.hasInstance 
+
+14. Symbol.for()
+15. Symbol.keyFor()
+16. toString()
+17. valueOf()
+
+
+
+ 
+Function:
+
+1. arguments
+2. caller
+3. displayName
+
+
+4. prototype
+5. length
+6. name
+
+
+7. call()
+8. apply()
+9. bind()
+10. toString()
+    toLocaleString()
+    valueOf()
+Map:
+
+1. size
+
+2. keys()
+3. values()
+4. entries()
+5. forEach()
+6. has()
+
+
+7. get()
+8. set()
+9. clear()
+10. delete()
+ 
+
+
+Object:
+
+1. constructor
+2. __proto__
+
+3. __defineGetter__()
+4. __defineSetter__()
+5. __lookupGetter__()
+6. __lookupSetter__()
+
+7. Object.defineProperty()
+8. Object.defineProperties()
+9. Object.keys()
+10. Object.values()
+11. Object.entries()
+12. Object.fromEntries()
+
+
+13. Object.preventExtensions()
+14. Object.isExtensible()
+15. Object.seal()
+16. Object.isSealed()
+17. Object.freeze()
+18. Object.isFrozen()
+19. Object.is() 
+
+
+20. Object.getPrototypeOf()
+21. Object.setPrototypeOf()
+22. Object.getOwnPropertyNames()
+23. Object.getOwnPropertySymbols()
+24. Object.getOwnPropertyDescriptor()
+25. Object.getOwnPropertyDescriptors()
+26. Object.hasOwn()
+
+
+27. Object.assign()
+28. Object.create()
+29. hasOwnProperty()
+30. propertyIsEnumerable()
+31. isPrototypeOf()
+32. toString()
+33. toLocaleString()
+34. valueOf()
+Set:
+
+1. size
+
+2. keys()
+3. values()
+4. entries()
+6. forEach()
+7. has()
+
+
+8. add()
+9. clear()
+10. delete()
+ 
+
+
+Date:
+
+1. Date.now()
+2. Date.parse()
+3. Date.UTC()
+4. valueOf()
+
+
+Get methods:
+
+
+Set methods:
+
+
+To methods:
+
+
+
+
+Math:
+
+1. Math.SQRT1_2
+2. Math.SQRT2
+3. Math.PI
+4. Math.E
+5. Math.LOG2E
+6. Math.LOG10E
+7. Math.LN2
+8. Math.LN10
+
+9. Math.abs()
+10. Math.round()
+11. Math.fround()
+12. Math.random()
+ Math.clz32() 
+ Math.imul()
+13. Math.sign()
+14. Math.exp()
+15. Math.expm1()
+16. Math.pow()
+17. Math.trunc()
+18. Math.hypot()
+
+20. Math.min()
+21. Math.max()
+22. Math.ceil()
+23. Math.floor()
+24. Math.sqrt()
+25. Math.cbrt()
+26. Math.log()
+27. Math.log2()
+28. Math.log10()
+29. Math.log1p()
+
+30. Math.sin()
+31. Math.asin()
+32. Math.sinh()
+33. Math.asinh()
+34. Math.cos()
+35. Math.acos()
+36. Math.cosh()
+37. Math.acosh()
+38. Math.tan()
+49. Math.atan()
+40. Math.atan2()
+41. Math.tanh()
+42. Math.atanh()
+
+
+ 
+
+
+
+
+
+
+
+
+
+Promise:
+
+1. Promise.all()
+2. Promise.allSettled()
+3. Promise.any()
+4. Promise.then()
+5. Promise.catch()
+6. Promise.finally()
+7. Promise.resolve()
+8. Promise.reject()
+9. Promise.race()
+
+
+DOM [Document Obect Model]
+
+Events:
+
+Animation 
+Transition
+
+Clipboard
+Input 
+Focus
+Keyboard
+Mouse
+Wheel
+Drag
+Touch
+Ui
+PopState
+PageTransition
+HashChange
+Progress
+Storage
+
+
+Window:
+
+opener
+closed
+name
+length
+document
+frames
+frameElement
+screen
+screenLeft
+screenX
+screenTop
+screenY
+pageXOffset
+scrollX
+pageYOffset
+scrollY
+
+
+innerWidth
+innerHeight
+outerWidth
+outerHeight
+console
+history
+location
+navigator
+
+self
+parent
+top
+status
+localStorage  tbr
+sessionStorage   tbr
+
+
+open()
+close()
+alert()
+prompt()
+confirm()
+print()
+stop()
+btoa()
+atob()
+focus()
+blur()
+setInterval()
+clearInterval()
+setTimeout()
+clearTimeout()
+
+scroll()
+scrollTo()
+scrollBy()
+moveTo()
+moveBy()
+resizeTo()
+resizeBy()
+
+addEventListener()
+removeEventListener()
+getComputedStyle() tbr
+getSelection()  tbr
+matchMedia()  tbr
+ 
+
+requestAnimationFrame() //
+
+
+
+Document:
+
+defaultView
+domain
+URL
+baseURI
+documentURI
+
+doctype
+documentElement
+head
+charset 
+characterSet
+title
+links
+scripts
+referrer
+
+body
+anchors 
+images
+embeds
+forms
+cookie  
+
+--After
+
+lastModified
+readyState
+activeElement
+designMode 
+implementation  
+
+domConfig  //
+inputEncoding  //
+strictErrorChecking  //
+
+
+open()
+close()
+write()
+writeln()
+getElementById()    
+getElementsByName()    -tbr
+getElementsByClassName()    -tbr
+getElementsByTagName()    -tbr
+querySelector()    -tbr
+querySelectorAll()    -tbr
+addEventListener()
+removeEventlistener()
+
+-tbr
+createElement()
+createAttribute()
+createComment()
+createDocumentFragment()
+createEvent()
+createTextNode()
+importNode() 
+adoptNode()
+
+
+After--
+hasFocus()
+normalize()
+
+normalizeDocument() //
+execCommand() //
+
+
+Console:
+
+
+assert()
+error()
+clear()
+count()
+info()
+group()
+groupCollapsed()
+groupEnd()
+
+log()
+table()
+time()
+timeEnd()
+trace()
+warn()
+
+Navigator:
+
+appName
+appVersion
+appCodeName
+language
+onLine
+platform
+product
+userAgent
+cookieEnabled
+geolocation
+
+javaEnabled()
+taintEnabled()
+
+
+Element:  
+
+
+clientHeight
+clientLeft
+clientTop
+
+contentEditable
+dir
+
+firstChild
+firstElementChild
+lastChild
+lastElementChild
+
+id
+className
+innerHTML
+innerText
+
+lang
+isContentEditable
+
+offsetWidth
+offsetHeight
+offsetParent
+offsetTop
+
+outerHTML
+outerText
+ownerDocument
+
+parentNode
+parentElement
+previousSibling
+previousElementSibling
+
+scrollWidth
+scrollHeight
+scrollLeft
+scrollTop
+
+style
+tabIndex
+tagName
+textContent
+title
+
+
+addEventListener()
+removeEventListener()
+appendChild()
+
+focus()
+blur()
+
+getAttribute()
+getAttributeNode()
+getBoundingClientRect()
+getElementsByClassName()
+getElementsByTagName()
+
+hasAttribute()
+hasAttributes()
+hasChildNodes()
+
+insertAdjacentElement()
+insertAdjacentHTML()
+insertAdjacentText()
+insertBefore()
+
+isDefaultNamespace()
+isEqualNode()
+isSameNode()
+isSupported()
+
+matches()
+normalize()
+
+querySelectorAll()
+removeAttribute()
+removeAttributeNode()
+removeChild()
+
+scrollIntoView()
+setAttribute()
+setAttributeNode()
+toString()
+
+
+
+namespaceURI //
+nextSibling //
+nextElementSibling //
+
+nodeName //
+nodeType //
+nodeValue //
+
+accessKey //
+attributes //
+childElementCount //
+childNodes //
+children //
+classList //
+
+click() //
+cloneNode() //
+closest() //
+compareDocumentPosition() //
+contains() //
+
+
+Events:
+
+Event Object:
+
+
+Events--
+
+open
+beforeprint
+afterprint
+canplay
+canplaythrough
+play
+playing
+pause
+seeked
+seeking
+waiting
+
+submit
+reset
+search
+show
+select
+toggle
+change
+online
+offline
+
+
+Properties--
+
+bubbles
+cancelBubble
+cancelable
+target
+currentTarget
+
+
+createEvent()
+preventDefault()
+composedPath()
+stopPropagation()
+stopImmediatePropagation()
+
+
+message //
+progress //
+ratechange //
+
+
+
+
+-next 
+change
+fullscreenchange
+fullscreenerror
+invalid
+loadedmetadata
+
+loadeddata
+volumechange
+timeupdate
+abort
+ended
+type
+timeStamp
+suspend
+stalled
+
+
+
+
+
+
+
+
