@@ -7,31 +7,51 @@ Features -
   -  It will show how much to eat and what to eat for a healthy diet
   -  It will also rule out any possible future disease that user maybe vulnerable to depending upon diet
   -  It will It will keep track of health everytime user enters their data
-  -  Also, the app will suggest if a doctor recoomendation will be required in case health is at risk
+  -  Also, the app will suggest if a doctor recommendation will be required in case health is at risk
   -  If user forgets to enter their health activity it will notify them
   -  Most of the things will be taken into consideration such as Heart rate, calorie intake, fat, bmi, etc.
   -  Also, the app will show nearby hospitals or clinics if there is any health threat
+  -  The app elements will change their design as it becomes more and more responsive
+
+Elements to use - 
+
+  - Home
+  - 
 
 Tools and Technologies -
 
   -  HTML
   -  CSS
+  -  SASS
   -  JS
   -  Bootstrap
   -  ReactJS
   -  RWD
 
 
-2. Website 
+2. Space Website 
 
 Features - 
 
-  
-  
+  -  The project will consist  all things related to space
+  -  It will give more details about each and every elements of space like stars planets, asteroids, etc.
+  -  It will enthusiasts users to know more about the current activity happenings and nasa records of findings in space
+  -  Furthermore it will create and environment of interest
+  -  It will contain topics such as intro, space info, planets, comets, stars, asteroids, etc.
+  -  Different CSS animations will be used as well as JS elements will be used to cover up this.
+  -  The website elements will change their design as it becomes more and more responsive.
+
+Elements to use - 
+
+  - Home
+  - 
 
 Tools and Technologies -
 
   -  HTML
   -  CSS
+  -  SASS
   -  JS
   -  Bootstrap
+  -  RWD
+
