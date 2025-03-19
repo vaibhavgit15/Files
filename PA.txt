@@ -1,0 +1,37 @@
+
+
+1. Health Tracker
+
+Features - 
+
+  -  It will show how much to eat and what to eat for a healthy diet
+  -  It will also rule out any possible future disease that user maybe vulnerable to depending upon diet
+  -  It will It will keep track of health everytime user enters their data
+  -  Also, the app will suggest if a doctor recoomendation will be required in case health is at risk
+  -  If user forgets to enter their health activity it will notify them
+  -  Most of the things will be taken into consideration such as Heart rate, calorie intake, fat, bmi, etc.
+  -  Also, the app will show nearby hospitals or clinics if there is any health threat
+
+Tools and Technologies -
+
+  -  HTML
+  -  CSS
+  -  JS
+  -  Bootstrap
+  -  ReactJS
+  -  RWD
+
+
+2. Website 
+
+Features - 
+
+  
+  
+
+Tools and Technologies -
+
+  -  HTML
+  -  CSS
+  -  JS
+  -  Bootstrap
