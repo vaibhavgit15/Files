@@ -4,11 +4,11 @@
 
 Features - 
 
-  -  It will show how much to eat and what to eat for a healthy diet
-  -  It will also rule out any possible future disease that user maybe vulnerable to depending upon diet
-  -  It will It will keep track of health everytime user enters their data
+  -  It will show how much to eat and what to eat for a healthy diet and what exercises to be done.
+  -  It will also rule out any possible future disease that user maybe vulnerable to depending upon diet and exercise.
+  -  It will keep track of health everytime user enters their data
   -  Also, the app will suggest if a doctor recommendation will be required in case health is at risk
-  -  If user forgets to enter their health activity it will notify them
+  -  If user forgets to enter their diet, physical exercise etc. it will notify them
   -  Most of the things will be taken into consideration such as Heart rate, calorie intake, fat, bmi, etc.
   -  Also, the app will show nearby hospitals or clinics if there is any health threat
   -  The app elements will change their design as it becomes more and more responsive
@@ -16,7 +16,16 @@ Features -
 Elements to use - 
 
   - Home
-  - 
+  - Welcome Page
+  - About
+  - Registration Form
+  - Login Form
+  - User details ( adding everytime by user )
+  - User details result - Heart rate, calorie intake, fat, bmi, etc.
+  - Recommendation for healthy diet
+  - Current health status - doctor recommendation dialog box ( if required ) - nearby hospitals, clinics geolocation iframe
+  - Future disease dialog box
+  - Notification box in case user forgets to enter everyday diet or exercises 
 
 Tools and Technologies -
 
@@ -26,6 +35,7 @@ Tools and Technologies -
   -  JS
   -  Bootstrap
   -  ReactJS
+  -  React Router
   -  RWD
 
 
@@ -44,7 +54,22 @@ Features -
 Elements to use - 
 
   - Home
-  - 
+  - Menu
+  - Intro
+  - About
+  - Our Space - Inner space - Outer space
+  - Interesting Facts
+  - Latest news
+  - Planets
+  - Stars
+  - Constellations
+  - Sun
+  - Moon
+  - Earth
+  - Universe
+  - Asteroids
+  - More - Supernovas - Birth of a star - Comet
+  - Thankyou Page
 
 Tools and Technologies -
 
