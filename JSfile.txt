@@ -143,16 +143,28 @@ instanceof
 
 String:
 
-length
 
-1. at()    
-2. charAt()    
-3. charCodeAt()
-4. codePointAt()
-5. concat()
-6. String.fromCharCode()    
-7. String.fromCodePoint()
-8. String.raw()
+String() constructor
+
+
+length  
+
+
+-- All Static methods --
+
+1. String.fromCharCode()     
+2. String.fromCodePoint()
+3. String.raw()
+
+-- All Static methods --   
+
+
+4. at()    
+5. charAt()    
+6. charCodeAt()
+7. codePointAt()
+8. concat()
+
 9. search()
 10. startsWith()
 11. endsWith()
@@ -209,84 +221,131 @@ length
 
 Number:
 
-1. MAX_VALUE   
-2. MIN_VALUE
-3. MAX_SAFE_INTEGER
-4. MIN_SAFE_INTEGER
-5. EPSILON
-6. NaN
-7. POSITIVE_INFINITY
-8. NEGATIVE_INFINITY
 
-9. parseInt()
-10. parseFloat()
-11. toPrecision()   
-12. toExponential()
-13. toFixed()
+Number() constructor
 
-14. isNaN()
-15. isFinite()
-16. isInteger()
-17. isSafeInteger()
+
+-- All Static Properties --
+
+1. Number.MAX_VALUE          
+2. Number.MIN_VALUE
+3. Number.MAX_SAFE_INTEGER
+4. Number.MIN_SAFE_INTEGER
+5. Number.EPSILON
+6. Number.NaN
+7. Number.POSITIVE_INFINITY
+8. Number.NEGATIVE_INFINITY
+
+-- All Static Properties --
+
+
+
+-- All Static methods --
+
+12. Number.isNaN()      
+13. Number.isFinite()
+14. Number.isInteger()
+15. Number.isSafeInteger()
+16. Number.parseInt()
+17. Number.parseFloat()
+
+-- All Static methods --
+
+
+
+9. toPrecision()  
+10. toExponential()
+11. toFixed()
 
 18. toString()        
 19. toLocaleString()
 20. valueOf()
 
 
+
+
 RegExp:
 
-1. unicode
-2. unicodeSets
-3. global
-4. dotAll
-5. flags
+
+RegExp() constructor
 
 
-6. hasIndices
-7. obj.lastIndex
-8. RegExp.input($_)
-9. RegExp.lastMatch($&)
-10. RegExp.lastParen($+)
-11. RegExp.leftContext($`)
-12. RegExp.rightContext ($')
-13. RegExp.$1 to RegExp.$9
+
+-- All Static properties --
+
+1. RegExp.input($_)       
+2. RegExp.lastMatch($&)
+3. RegExp.lastParen($+)
+4. RegExp.leftContext($`)
+5. RegExp.rightContext ($')
+6. RegExp.$1 to RegExp.$9
+7. RegExp[Symbol.species]
+
+-- All Static properties --
 
 
-14. multiline
-15. ignoreCase
-16. source
-17. sticky
 
-18. [@@match]()
-19. [@@matchAll]()
-20. [@@replace]()
-21. [@@search]()
+8. unicode
+9. unicodeSets
+10. global
+11. dotAll
+12. flags
+13. hasIndices
+14. obj.lastIndex
+15. multiline
+16. ignoreCase
+17. source
+18. sticky
 
 
-22. [@@split]()
-23. compile()
-24. exec()
-25. text()
-26. toString()
+19. RegExp.escape()   -- Static Method
+
+
+20. [@@match]()
+21. [@@matchAll]()
+22. [@@replace]()
+23. [@@search]()
+
+
+24. [@@split]()
+25. compile()
+26. exec()
+27. text()
+28. toString()
+
+
 
 
 
 
 Array:
 
-1. at() 
-2. concat()
-3. copyWithin()
-4. keys()  
-5. values()  
-6. entries()
-7. forEach()
-8. Array.of()
-9. Array.from()
-10. Array.fromAsync()
-11. Array.isArray()
 
+Array() constructor
+
+
+Array[Symbol.species]    -- Static property
+
+
+
+-- All Static Methods --
+
+1. Array.of()    
+2. Array.from()
+3. Array.fromAsync()
+4. Array.isArray()
+
+-- All Static Methods --
+
+
+
+5. at() 
+6. concat()
+7. copyWithin()
+8. keys()  
+9. values()  
+10. entries()
+11. forEach()
 
 12. indexOf()
 13. lastIndexOf()
@@ -295,7 +354,6 @@ Array:
 16. push()
 17. shift()
 18. unshift() 
-
 
 19. find()
 20. findIndex()
@@ -313,7 +371,6 @@ Array:
 32. reduce()  
 33. reduceRight()  
 
-
 34. reverse()  
 35. toReversed()
 36. sort()    
@@ -329,7 +386,12 @@ Array:
 Symbol:
 
 
-1. Symbol.search
+Symbol() constructor
+
+
+-- All Static properties --
+ 
+1. Symbol.search             
 2. Symbol.match
 3. Symbol.matchAll
 4. Symbol.replace
@@ -340,15 +402,27 @@ Symbol:
 9.  Symbol.toStringTag
 10. Symbol.split
 11. Symbol.species
-
-
 12. Symbol.unscopables
 13. Symbol.hasInstance 
 
-14. Symbol.for()
-15. Symbol.keyFor()
-16. toString()
-17. valueOf()
+-- All Static properties --
+
+
+14. description
+
+
+
+-- All Static Methods --
+
+15. Symbol.for()   
+16. Symbol.keyFor()
+
+-- All Static Methods --
+
+
+
+17. toString()
+18. valueOf()
 
 
 
@@ -356,13 +430,17 @@ Symbol:
 Function:
 
 
--- Deprecated
+Function() constructor
 
-1. arguments
+
+-- All Deprecated --
+
+1. arguments         
 2. caller
 3. displayName
 
--- Deprecated
+-- All Deprecated --
+
 
 
 4. prototype
@@ -373,10 +451,15 @@ Function:
 7. call()
 8. apply()
 9. bind()
-10. toString()
-    toLocaleString()
-    valueOf()
+10. [Symbol.hasInstance]()
+11. toString()
+
+
+
 Map:
+
+
+Map() constructor
 
 1. size 
 
@@ -386,27 +469,33 @@ Map:
 5. forEach()
 6. has()
 
+7.Map[Symbol.species]      -- Static property
+
 
 7. get()
 8. set()
 9. clear()
 10. delete()
+11. [Symbol.iterator]()
 
-11. groupBy() 
+12. Map.groupBy()     -- Static method
  
+
 
 
 Object:
 
+
+Object() constructor
+
+
 1. constructor                      
 2. __proto__
 
-3. __defineGetter__()             
-4. __defineSetter__()
-5. __lookupGetter__()
-6. __lookupSetter__()
 
-7. Object.defineProperty()
+-- All Static methods --
+
+7. Object.defineProperty()            
 8. Object.defineProperties()
 9. Object.keys()
 10. Object.values()
@@ -428,13 +517,22 @@ Object:
 24. Object.getOwnPropertyDescriptor()
 25. Object.getOwnPropertyDescriptors()
 26. Object.hasOwn()
-
 27. Object.assign()
 28. Object.create()
+
+-- All Static methods --
+
+
+
+3. __defineGetter__()             
+4. __defineSetter__()
+5. __lookupGetter__()
+6. __lookupSetter__()
 
 29. hasOwnProperty()              
 30. propertyIsEnumerable()
 31. isPrototypeOf()
+
 32. toString()
 33. toLocaleString()
 34. valueOf()
@@ -442,43 +540,119 @@ Object:
 
 Set:
 
-1. size  
 
-2. keys()
-3. values()
-4. entries()
+Set() constructor
+
+1. size 
+
+2. Set[Symbol.species]     -- Static property
+
+3. keys()
+4. values()
+5. entries()
 6. forEach()
 7. has()
-
 
 8. add()
 9. clear()
 10. delete()
- 
+
+11. intersection()
+12. isDisjointFrom()
+13. isSubsetOf()
+14. isSupersetOf()
+15. union()
+16. symmetricDifference()
+17. [Symbol.iterator]()
+
+
 
 
 Date:
 
-1. Date.now()
+
+Date() constructor
+
+
+-- All Static Methods --
+
+1. Date.now()        
 2. Date.parse()
 3. Date.UTC()
+
+-- All Static Methods --
+
+
 4. valueOf()
+
 
 
 Get methods:
 
+1. getFullYear()
+2. getUTCFullYear()
+3. getMonth()
+4. getUTCMonth()
+5. getDay()
+6. getUTCDay()
+7. getHours()
+8. getUTCHours()
+9. getMinutes()
+10. getUTCMinutes()
+11. getSeconds()
+12. getUTCSeconds()
+13. getMilliseconds()
+14. getUTCMilliseconds()
+15. getDate()
+16. getUTCDate()
+17. getTime()
+18. getTimezoneOffset()
+19. getYear()                 -- Deprecated
+
 
 Set methods:
 
+1. setFullYear()
+2. setUTCFullYear()
+3. setMonth()
+4. setUTCMonth()
+5. setHours()
+6. setUTCHours()
+7. setMinutes()
+8. setUTCMinutes()
+9. setSeconds()
+10. setUTCSeconds()
+11. setMilliseconds()
+12. setUTCMilliseconds()
+13. setDate()
+14. setUTCDate()
+15. setTime()
+16. setYear()    -- Deprecated
+
 
 To methods:
+
+1. toDateString()
+2. toISOString()
+3. toJSON()
+4. toLocaleDateString()
+5. toLocaleString()
+6. toLocaleTimeString()
+7. toString()
+8. toTimeString()
+9. toUTCString()
+10. valueOf()
+11. [Symbol.toPrimitive]()
 
 
 
 
 Math:
 
-1. Math.SQRT1_2
+
+-- All Static Properties --
+
+1. Math.SQRT1_2     
 2. Math.SQRT2
 3. Math.PI
 4. Math.E
@@ -487,58 +661,84 @@ Math:
 7. Math.LN2
 8. Math.LN10
 
-9. Math.abs()
+-- All Static Properties --
+
+
+-- All Static Methods --
+
+9. Math.abs()  
 10. Math.round()
 11. Math.fround()
-12. Math.random()
- Math.clz32() 
- Math.imul()
-13. Math.sign()
-14. Math.exp()
-15. Math.expm1()
-16. Math.pow()
-17. Math.trunc()
-18. Math.hypot()
+12. Math.f16round()
+13. Math.random()
+14. Math.clz32() 
+15. Math.imul()
+16. Math.sign()
+17. Math.exp()
+18. Math.expm1()
+19. Math.pow()
+20. Math.trunc()
+21. Math.hypot()
 
-20. Math.min()
-21. Math.max()
-22. Math.ceil()
-23. Math.floor()
-24. Math.sqrt()
-25. Math.cbrt()
-26. Math.log()
-27. Math.log2()
-28. Math.log10()
-29. Math.log1p()
+22. Math.min()
+23. Math.max()
+24. Math.ceil()
+25. Math.floor()
+26. Math.sqrt()
+27. Math.cbrt()
+28. Math.log()
+29. Math.log2()
+30. Math.log10()
+31. Math.log1p()
 
-30. Math.sin()
-31. Math.asin()
-32. Math.sinh()
-33. Math.asinh()
-34. Math.cos()
-35. Math.acos()
-36. Math.cosh()
-37. Math.acosh()
-38. Math.tan()
-49. Math.atan()
-40. Math.atan2()
-41. Math.tanh()
-42. Math.atanh()
+32. Math.sin()
+33. Math.asin()
+34. Math.sinh()
+35. Math.asinh()
+36. Math.cos()
+37. Math.acos()
+38. Math.cosh()
+39. Math.acosh()
+40. Math.tan()
+41. Math.atan()
+42. Math.atan2()
+43. Math.tanh()
+44. Math.atanh()
+
+-- All Static Methods --
+
+
 
 
 Promise:
 
-1. Promise.all()
-2. Promise.allSettled()
-3. Promise.any()
-4. Promise.then()
-5. Promise.catch()
-6. Promise.finally()
-7. Promise.resolve()
-8. Promise.reject()
-9. Promise.race()
-10. Promise.try()
-11. Promise.withResolvers()
+
+Promise() constructor
+
+
+-- All Static Methods --
+
+1. Promise[Symbol.species]           
+2. Promise.all()              
+3. Promise.allSettled()
+4. Promise.any()
+5. Promise.try()
+6. Promise.resolve()
+7. Promise.reject()
+8. Promise.race()
+9. Promise.withResolvers()
+
+-- All Static Methods --
+
+
+
+10. then()
+11. catch()
+12. finally()
+
+
+
+
 
 
 DOM [Document Object Model]
@@ -602,8 +802,23 @@ status
 localStorage  
 sessionStorage  
 
+statusbar
+toolbar
+menubar
+personalbar
+locationbar
+scrollbars
+visualViewport
+window
+
+origin
+performance
+scheduler
 caches
 cookieStore
+speechSynthesis
+trustedTypes
+
 crossOriginIsolated
 crypto
 customElements
@@ -611,20 +826,6 @@ devicePixelRatio
 indexedDB
 isSecureContext
 
-statusbar
-toolbar
-menubar
-locationbar
-scrollbars
-
-origin
-performance
-personalbar
-scheduler
-speechSynthesis
-trustedTypes
-visualViewport
-window
 
 open()
 close()
@@ -657,6 +858,11 @@ getComputedStyle()
 getSelection()  
 matchMedia() 
 
+requestAnimationFrame()
+cancelAnimationFrame()
+requestIdleCallback()
+cancelIdleCallback()
+
 postMessage()
 queueMicrotask()
 reportError()
@@ -664,10 +870,6 @@ structuredClone()
 createImageBitmap()
 
 
-requestAnimationFrame()
-cancelAnimationFrame()
-requestIdleCallback()
-cancelIdleCallback()
  
 
 requestAnimationFrame() //
@@ -704,28 +906,25 @@ location
 
 fonts
 dir
-firstElementChild
-childElementCount
-children
+plugins
+timeline
+fragmentDirective
 compatMode
 visibilityState
 hidden
 
-fragmentDirective
 fullscreenElement
 fullscreenEnabled
-implementation
+pointerLockElement
+firstElementChild
+childElementCount
+children
+scrollingElement
+pictureInPictureElement
+pictureInPictureEnabled
 lastElementChild
 lastModified
 
-pictureInPictureElement
-pictureInPictureEnabled
-plugins
-pointerLockElement
-scrollingElement
-timeline
-
-lastModified
 readyState
 activeElement
 designMode 
@@ -842,112 +1041,108 @@ taintEnabled()
 Element:  
 
 
-clientHeight
-clientLeft
-clientTop
-contentEditable
-dir
+Properties -
 
-firstChild
-firstElementChild
-lastChild
-lastElementChild
-
-id
-className
 innerHTML
 innerText
-
-lang
-isContentEditable
+clientWidth
+clientHeight
 offsetWidth
 offsetHeight
 offsetParent
+offsetLeft
 offsetTop
-
-outerHTML
-outerText
-ownerDocument
-parentNode
-parentElement
-previousSibling
-previousElementSibling
-
+clientLeft
+clientTop
 scrollWidth
 scrollHeight
 scrollLeft
 scrollTop
+outerHTML
+outerText
+innerHTML
+innerText
+firstChild
+firstElementChild
+lastChild
+lastElementChild
+parentNode
+parentElement
+previousSibling
+previousElementSibling
+nextSibling
+nextElementSibling
 
+namespaceURI
+id
+className
+classList 
 style
-tabIndex
 tagName
-textContent
+attributes 
 title
+textContent
+nodeName
+nodeValue
+nodeType
+childNodes 
+childElementCount 
+children 
+tabIndex
+
+accessKey
+dir
+lang
+ownerDocument
+contentEditable
+isContentEditable
 
 
+
+Methods -
+
+appendChild()
+removeChild()
+replaceChild()
+cloneNode()
+hasChildNodes()
 addEventListener()
 removeEventListener()
-appendChild()
 
 focus()
 blur()
-
 getAttribute()
+hasAttribute()
+hasAttributes()
+setAttribute()
+setAttributeNode()
+removeAttribute()
 getAttributeNode()
+removeAttributeNode()
 getBoundingClientRect()
 getElementsByClassName()
 getElementsByTagName()
-
-hasAttribute()
-hasAttributes()
-hasChildNodes()
-
-insertAdjacentElement()
-insertAdjacentHTML()
-insertAdjacentText()
-insertBefore()
+querySelector()
+querySelectorAll()
 
 isDefaultNamespace()
 isEqualNode()
 isSameNode()
 isSupported()
+insertAdjacentElement()
+insertAdjacentHTML()
+insertAdjacentText()
+insertBefore()
 
+click() 
 matches()
-normalize()
-
-querySelectorAll()
-removeAttribute()
-removeAttributeNode()
-removeChild()
-replaceChild()
-
+closest()
+contains() 
+compareDocumentPosition()
 scrollIntoView()
-setAttribute()
-setAttributeNode()
+normalize()
 toString()
 
-
-
-namespaceURI //
-nextSibling //
-nextElementSibling //
-
-nodeName //
-nodeType //
-nodeValue //
-
-accessKey //
-attributes //
-childElementCount //
-childNodes //
-children //
-classList //
-
-click() //
-cloneNode() //
-closest() //
-compareDocumentPosition() //
-contains() //
 
 
 Events:
@@ -979,37 +1174,6 @@ change
 online
 offline
 
-
-Properties--
-
-bubbles
-cancelBubble
-cancelable
-target
-currentTarget
-
-
-createEvent()
-preventDefault()
-composedPath()
-stopPropagation()
-stopImmediatePropagation()
-
-
-message //
-progress //
-ratechange //
-
-
-
-
--next 
-change
-fullscreenchange
-fullscreenerror
-invalid
-loadedmetadata
-
 loadeddata
 volumechange
 timeupdate
@@ -1020,7 +1184,39 @@ timeStamp
 suspend
 stalled
 
+change
+fullscreenchange
+fullscreenerror
+invalid
+loadedmetadata
+message
+progress
+ratechange
 
+
+
+Properties--
+
+bubbles
+cancelBubble
+cancelable
+target
+currentTarget
+
+timeStamp
+type
+isTrusted
+eventPhase
+defaultPrevented
+
+
+Methods--
+
+createEvent()
+preventDefault()
+composedPath()
+stopPropagation()
+stopImmediatePropagation()
 
 
 
