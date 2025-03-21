@@ -140,6 +140,9 @@ typeof
 instanceof
 
 
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
 
 String:
 
@@ -164,7 +167,6 @@ length
 6. charCodeAt()
 7. codePointAt()
 8. concat()
-
 9. search()
 10. startsWith()
 11. endsWith()
@@ -173,7 +175,6 @@ length
 14. matchAll()
 15. replace()
 16. replaceAll()
-
 
 17. padStart()
 18. padEnd()
@@ -191,7 +192,6 @@ length
 30. substring()
 31. substr()
 
-
 32. indexOf()
 33. lastIndexOf()
 34. split()
@@ -201,7 +201,6 @@ length
 38. normalize()
 39. fixed()  // tt
 40. repeat()
-
 
 41. anchor()
 42. link()
@@ -231,8 +230,8 @@ Number() constructor
 2. Number.MIN_VALUE
 3. Number.MAX_SAFE_INTEGER
 4. Number.MIN_SAFE_INTEGER
-5. Number.EPSILON
-6. Number.NaN
+5. Number.NaN
+6. Number.EPSILON
 7. Number.POSITIVE_INFINITY
 8. Number.NEGATIVE_INFINITY
 
@@ -284,7 +283,6 @@ RegExp() constructor
 -- All Static properties --
 
 
-
 8. unicode
 9. unicodeSets
 10. global
@@ -300,12 +298,10 @@ RegExp() constructor
 
 19. RegExp.escape()   -- Static Method
 
-
 20. [@@match]()
 21. [@@matchAll]()
 22. [@@replace]()
 23. [@@search]()
-
 
 24. [@@split]()
 25. compile()
@@ -346,7 +342,6 @@ Array[Symbol.species]    -- Static property
 9. values()  
 10. entries()
 11. forEach()
-
 12. indexOf()
 13. lastIndexOf()
 14. slice()
@@ -411,7 +406,6 @@ Symbol() constructor
 14. description
 
 
-
 -- All Static Methods --
 
 15. Symbol.for()   
@@ -440,7 +434,6 @@ Function() constructor
 3. displayName
 
 -- All Deprecated --
-
 
 
 4. prototype
@@ -522,8 +515,6 @@ Object() constructor
 
 -- All Static methods --
 
-
-
 3. __defineGetter__()             
 4. __defineSetter__()
 5. __lookupGetter__()
@@ -538,14 +529,19 @@ Object() constructor
 34. valueOf()
 
 
+
+
 Set:
+
 
 
 Set() constructor
 
+
 1. size 
 
 2. Set[Symbol.species]     -- Static property
+
 
 3. keys()
 4. values()
@@ -571,6 +567,7 @@ Set() constructor
 Date:
 
 
+
 Date() constructor
 
 
@@ -582,12 +579,10 @@ Date() constructor
 
 -- All Static Methods --
 
-
 4. valueOf()
 
 
-
-Get methods:
+Get methods -
 
 1. getFullYear()
 2. getUTCFullYear()
@@ -610,7 +605,7 @@ Get methods:
 19. getYear()                 -- Deprecated
 
 
-Set methods:
+Set methods -
 
 1. setFullYear()
 2. setUTCFullYear()
@@ -630,7 +625,7 @@ Set methods:
 16. setYear()    -- Deprecated
 
 
-To methods:
+To methods -
 
 1. toDateString()
 2. toISOString()
@@ -731,13 +726,209 @@ Promise() constructor
 -- All Static Methods --
 
 
-
 10. then()
 11. catch()
 12. finally()
 
 
 
+
+ArrayBuffer
+
+
+ArrayBuffer() constructor
+
+
+1. ArrayBuffer[Symbol.species]  -- Static property
+
+2. detached
+3. resizable
+4. byteLength
+5. maxByteLength
+
+
+6. ArrayBuffer.isView()    -- Static method
+
+7. slice()
+8. resize()
+9. transfer()
+10. transferToFixedLength()
+
+
+
+Atomics
+
+
+-- All Static Methods --
+
+1. Atomics.add()
+2. Atomics.sub()
+3. Atomics.and()
+4. Atomics.or()
+5. Atomics.xor()
+6. Atomics.exchange()
+7. Atomics.compareExchange()
+8. Atomics.wait()
+9. Atomics.waitAsync()
+
+10. Atomics.load()
+11. Atomics.notify()
+12. Atomics.pause()
+13. Atomics.store()
+14. Atomics.isLockFree()
+
+-- All Static Methods --
+
+
+
+
+TypedArray
+
+
+-- All Static Properties --
+
+1. TypedArray.BYTES_PER_ELEMENT
+2. TypedArray[Symbol.species]
+
+-- All Static Properties --
+
+3. TypedArray.prototype.buffer
+4. TypedArray.prototype.byteLength
+5. TypedArray.prototype.byteOffset
+6. TypedArray.prototype.length
+
+
+-- All Static Methods --
+
+7. TypedArray.from()
+8. TypedArray.of()
+
+-- All Static Methods --
+
+9. at()
+10. copyWithin()
+11. entries()
+12. every()
+13. fill()
+14. filter()
+15. find()
+16. findIndex()
+17. findLast()
+18. findLastIndex()
+19. forEach()
+20. includes()
+21. indexOf()
+22. join()
+23. keys()
+24. lastIndexOf()
+25. map()
+26. reduce()
+27. reduceRight()
+28. reverse()
+29. set()
+30. slice()
+31. some()
+32. sort()
+33. subarray()
+34. toLocaleString()
+35. toReversed()
+36. toSorted()
+37. toString()
+38. values()
+39. with()
+40. [Symbol.iterator]()
+
+
+
+
+Reflect
+
+
+-- All Static Methods --
+
+1. Reflect.apply()
+2. Reflect.construct()
+3. Reflect.defineProperty()
+4. Reflect.deleteProperty()
+5. Reflect.get()
+6. Reflect.getOwnPropertyDescriptor()
+7. Reflect.getPrototypeOf()
+8. Reflect.has()
+9. Reflect.isExtensible()
+10. Reflect.ownKeys()
+11. Reflect.preventExtensions()
+12. Reflect.set()
+13. Reflect.setPrototypeOf()
+
+-- All Static Methods --
+
+
+
+
+Iterator
+
+Iterator() constructor
+
+1. Iterator.from()     -- Static methods
+
+2. drop()
+3. every()
+4. filter()
+5. find()
+6. flatMap()
+7. forEach()
+8. map()
+9. reduce()
+10. some()
+11. take()
+12. toArray()
+13. [Symbol.iterator]()
+
+
+
+
+
+DataView
+
+DataView() constructor
+
+1. buffer
+2. byteLength
+3. byteOffset
+
+
+Get methods -
+
+1. getBigInt64()
+2. getBigUint64()
+3. getFloat16()
+4. getFloat32()
+5. getFloat64()
+6. getInt16()
+7. getInt32()
+8. getInt8()
+9. getUint16()
+10. getUint32()
+11. getUint8()
+
+
+Set methods -
+
+1. setBigInt64()
+2. setBigUint64()
+3. setFloat16()
+4. setFloat32()
+5. setFloat64()
+6. setInt16()
+8. setInt32()
+9. setInt8()
+10. setUint16()
+11. setUint32()
+12. setUint8()
+
+
+-------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
 
 
 
